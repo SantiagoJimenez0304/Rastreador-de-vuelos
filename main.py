@@ -2,7 +2,9 @@ from flask import Flask, render_template, request, redirect, url_for, session
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 import folium
-from FlightRadar24 import FlightRadar24API
+from my_flight_api import FlightRadar24API
+
+
 
 app = Flask(__name__)
 app.secret_key = "supersecretkey"
