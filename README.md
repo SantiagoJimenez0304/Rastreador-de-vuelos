@@ -18,7 +18,6 @@ Este proyecto es una aplicación web simple construida con **Flask**, que permit
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tu_usuario/nombre-del-repositorio.git
-   cd nombre-del-repositorio
    ```
 
 2. Instala las dependencias:
